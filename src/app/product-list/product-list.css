@@ -1,0 +1,22 @@
+/* src/app/product-list/product-list.component.css */
+div {
+  background: white;
+  border-radius: 8px;
+  padding: 15px;
+  margin-bottom: 15px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Легка тінь */
+}
+
+h3 a {
+  color: #1976d2;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+h3 a:hover {
+  text-decoration: underline;
+}
+
+p {
+  color: #666;
+}

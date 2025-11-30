@@ -1,0 +1,36 @@
+
+.top-bar {
+  background-color: #1976d2;
+  padding: 15px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+  color: white;
+}
+
+.top-bar a {
+  color: white;
+  text-decoration: none;
+  margin-right: 15px;
+  font-size: 16px;
+}
+
+.top-bar a:hover {
+  opacity: 0.8;
+}
+
+.fancy-button {
+  background-color: white;
+  color: #1976d2;
+  padding: 8px 15px;
+  border-radius: 20px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.fancy-button i {
+  font-size: 18px;
+}

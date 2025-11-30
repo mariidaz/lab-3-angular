@@ -1,0 +1,32 @@
+/* src/app/shipping/shipping.component.css */
+
+/* Контейнер для списку */
+.shipping-item {
+  display: flex;
+  flex-direction: column;
+  gap: 10px; 
+}
+
+.shipping-item > div {
+  background-color: white;
+  padding: 15px 20px;
+  border-radius: 8px; 
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05); 
+  transition: transform 0.2s, box-shadow 0.2s;
+  border: 1px solid transparent;
+}
+
+.shipping-item > div:hover {
+  transform: translateY(-2px); 
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  border-color: #1976d2; 
+}
+
+.shipping-item span:last-child {
+  font-weight: bold;
+  color: #1976d2;
+  font-size: 1.1em;
+}

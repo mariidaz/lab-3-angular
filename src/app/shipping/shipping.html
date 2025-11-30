@@ -1,0 +1,10 @@
+<h3>Shipping Prices</h3>
+
+<div class="shipping-item">
+  @for (shipping of shippingCosts | async; track shipping.type) {
+    <div>
+      <span>{{ shipping.type }}</span>
+      <span>{{ shipping.price | currency }}</span>
+    </div>
+  }
+</div>
